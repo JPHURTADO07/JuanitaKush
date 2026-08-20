@@ -7,8 +7,8 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+st.title("En este lugar te enseñamos a cocinar de la mano de tu agente de IA.")
+image = Image.open('IA.png')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
